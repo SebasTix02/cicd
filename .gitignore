@@ -1,41 +1,23 @@
-# Node.js
-node_modules/
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Logs
-*.log
-npm-debug.log*
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-# Dependency directories
-pids
-*.pid
-*.seed
-*.pid.lock
+# testing
+/coverage
 
-# Optional npm cache directory
-.npm
+# production
+/build
 
-# Optional eslint cache
-.eslintcache
-
-# Optional REPL history
-.node_repl_history
-
-# Output of 'npm pack'
-*.tgz
-
-# Yarn Integrity file
-.yarn-integrity
-
-# Mac OS
+# misc
 .DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# JetBrains IDE
-.idea/
-
-# Visual Studio Code
-.vscode/
-
-# Node.js-based projects
-node_modules/
-npm-debug.log
-yarn-error.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
