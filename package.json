@@ -1,64 +1,38 @@
 {
-  "name": "frontdas",
-  "version": "0.1.0",
+  "name": "angular",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
+  },
   "private": true,
-  "type": "module",
   "dependencies": {
-    "@ant-design/icons": "^5.0.1",
-    "@ant-design/plots": "^1.2.5",
-    "@refinedev/antd": "^5.37.4",
-    "@refinedev/cli": "^2.16.21",
-    "@refinedev/core": "^4.47.1",
-    "@refinedev/devtools": "^1.1.32",
-    "@refinedev/kbar": "^1.3.6",
-    "@refinedev/nestjs-query": "^1.1.1",
-    "@refinedev/react-router-v6": "^4.5.5",
-    "antd": "^5.17.0",
-    "graphql-tag": "^2.12.6",
-    "graphql-ws": "^5.9.1",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-router-dom": "^6.8.1",
-    "react-toastify": "^10.0.5"
+    "@angular/animations": "^17.3.0",
+    "@angular/common": "^17.3.0",
+    "@angular/compiler": "^17.3.0",
+    "@angular/core": "^17.3.0",
+    "@angular/forms": "^17.3.0",
+    "@angular/platform-browser": "^17.3.0",
+    "@angular/platform-browser-dynamic": "^17.3.0",
+    "@angular/router": "^17.3.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.14.3"
   },
   "devDependencies": {
-    "@graphql-codegen/cli": "^5.0.2",
-    "@graphql-codegen/import-types-preset": "^3.0.0",
-    "@graphql-codegen/typescript": "^4.0.6",
-    "@graphql-codegen/typescript-operations": "^4.2.0",
-    "@types/node": "^18.16.2",
-    "@types/react": "^18.0.0",
-    "@types/react-dom": "^18.0.0",
-    "@typescript-eslint/eslint-plugin": "^5.57.1",
-    "@typescript-eslint/parser": "^5.57.1",
-    "@vitejs/plugin-react": "^4.0.0",
-    "eslint": "^8.38.0",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.3.4",
-    "prettier": "^3.2.5",
-    "typescript": "^4.9.5",
-    "vite": "^4.3.1"
-  },
-  "scripts": {
-    "dev": "refine dev",
-    "build": "tsc && refine build",
-    "preview": "refine start",
-    "refine": "refine",
-    "codegen": "graphql-codegen"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "refine": {
-    "projectId": "XQGdjt-bgi5r1-sSYWgr"
+    "@angular-devkit/build-angular": "^17.3.6",
+    "@angular/cli": "^17.3.6",
+    "@angular/compiler-cli": "^17.3.0",
+    "@types/jasmine": "~5.1.0",
+    "jasmine-core": "~5.1.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "typescript": "~5.4.2"
   }
 }
